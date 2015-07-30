@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095359D51B6A639D007551E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 095359D41B6A639D007551E7 /* main.m */; };
+		095359D81B6A639D007551E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095359D71B6A639D007551E7 /* AppDelegate.m */; };
+		095359DB1B6A639D007551E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095359DA1B6A639D007551E7 /* ViewController.m */; };
+		095359DE1B6A639D007551E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095359DC1B6A639D007551E7 /* Main.storyboard */; };
+		095359E01B6A639D007551E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095359DF1B6A639D007551E7 /* Images.xcassets */; };
+		095359E31B6A639D007551E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095359E11B6A639D007551E7 /* LaunchScreen.xib */; };
+		095359EF1B6A639D007551E7 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095359EE1B6A639D007551E7 /* ____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		095359E91B6A639D007551E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095359C71B6A639C007551E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095359CE1B6A639C007551E7;
+			remoteInfo = "天天天气";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095359CF1B6A639C007551E7 /* 天天天气.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天天天气.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		095359D31B6A639D007551E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095359D41B6A639D007551E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		095359D61B6A639D007551E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		095359D71B6A639D007551E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		095359D91B6A639D007551E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		095359DA1B6A639D007551E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		095359DD1B6A639D007551E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		095359DF1B6A639D007551E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		095359E21B6A639D007551E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		095359E81B6A639D007551E7 /* 天天天气Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天天天气Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		095359ED1B6A639D007551E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095359EE1B6A639D007551E7 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095359CC1B6A639C007551E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095359E51B6A639D007551E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095359C61B6A639C007551E7 = {
+			isa = PBXGroup;
+			children = (
+				095359D11B6A639C007551E7 /* 天天天气 */,
+				095359EB1B6A639D007551E7 /* 天天天气Tests */,
+				095359D01B6A639C007551E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095359D01B6A639C007551E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095359CF1B6A639C007551E7 /* 天天天气.app */,
+				095359E81B6A639D007551E7 /* 天天天气Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		095359D11B6A639C007551E7 /* 天天天气 */ = {
+			isa = PBXGroup;
+			children = (
+				095359D61B6A639D007551E7 /* AppDelegate.h */,
+				095359D71B6A639D007551E7 /* AppDelegate.m */,
+				095359D91B6A639D007551E7 /* ViewController.h */,
+				095359DA1B6A639D007551E7 /* ViewController.m */,
+				095359DC1B6A639D007551E7 /* Main.storyboard */,
+				095359DF1B6A639D007551E7 /* Images.xcassets */,
+				095359E11B6A639D007551E7 /* LaunchScreen.xib */,
+				095359D21B6A639D007551E7 /* Supporting Files */,
+			);
+			path = "天天天气";
+			sourceTree = "<group>";
+		};
+		095359D21B6A639D007551E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				095359D31B6A639D007551E7 /* Info.plist */,
+				095359D41B6A639D007551E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		095359EB1B6A639D007551E7 /* 天天天气Tests */ = {
+			isa = PBXGroup;
+			children = (
+				095359EE1B6A639D007551E7 /* ____Tests.m */,
+				095359EC1B6A639D007551E7 /* Supporting Files */,
+			);
+			path = "天天天气Tests";
+			sourceTree = "<group>";
+		};
+		095359EC1B6A639D007551E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				095359ED1B6A639D007551E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095359CE1B6A639C007551E7 /* 天天天气 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095359F21B6A639D007551E7 /* Build configuration list for PBXNativeTarget "天天天气" */;
+			buildPhases = (
+				095359CB1B6A639C007551E7 /* Sources */,
+				095359CC1B6A639C007551E7 /* Frameworks */,
+				095359CD1B6A639C007551E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "天天天气";
+			productName = "天天天气";
+			productReference = 095359CF1B6A639C007551E7 /* 天天天气.app */;
+			productType = "com.apple.product-type.application";
+		};
+		095359E71B6A639D007551E7 /* 天天天气Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095359F51B6A639D007551E7 /* Build configuration list for PBXNativeTarget "天天天气Tests" */;
+			buildPhases = (
+				095359E41B6A639D007551E7 /* Sources */,
+				095359E51B6A639D007551E7 /* Frameworks */,
+				095359E61B6A639D007551E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095359EA1B6A639D007551E7 /* PBXTargetDependency */,
+			);
+			name = "天天天气Tests";
+			productName = "天天天气Tests";
+			productReference = 095359E81B6A639D007551E7 /* 天天天气Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095359C71B6A639C007551E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "杨川";
+				TargetAttributes = {
+					095359CE1B6A639C007551E7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					095359E71B6A639D007551E7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 095359CE1B6A639C007551E7;
+					};
+				};
+			};
+			buildConfigurationList = 095359CA1B6A639C007551E7 /* Build configuration list for PBXProject "天天天气" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 095359C61B6A639C007551E7;
+			productRefGroup = 095359D01B6A639C007551E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095359CE1B6A639C007551E7 /* 天天天气 */,
+				095359E71B6A639D007551E7 /* 天天天气Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		095359CD1B6A639C007551E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095359DE1B6A639D007551E7 /* Main.storyboard in Resources */,
+				095359E31B6A639D007551E7 /* LaunchScreen.xib in Resources */,
+				095359E01B6A639D007551E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095359E61B6A639D007551E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095359CB1B6A639C007551E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095359DB1B6A639D007551E7 /* ViewController.m in Sources */,
+				095359D81B6A639D007551E7 /* AppDelegate.m in Sources */,
+				095359D51B6A639D007551E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095359E41B6A639D007551E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095359EF1B6A639D007551E7 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		095359EA1B6A639D007551E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095359CE1B6A639C007551E7 /* 天天天气 */;
+			targetProxy = 095359E91B6A639D007551E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		095359DC1B6A639D007551E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095359DD1B6A639D007551E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		095359E11B6A639D007551E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095359E21B6A639D007551E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		095359F01B6A639D007551E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		095359F11B6A639D007551E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		095359F31B6A639D007551E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "天天天气/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		095359F41B6A639D007551E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "天天天气/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		095359F61B6A639D007551E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "天天天气Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天天天气.app/天天天气";
+			};
+			name = Debug;
+		};
+		095359F71B6A639D007551E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "天天天气Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天天天气.app/天天天气";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095359CA1B6A639C007551E7 /* Build configuration list for PBXProject "天天天气" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095359F01B6A639D007551E7 /* Debug */,
+				095359F11B6A639D007551E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095359F21B6A639D007551E7 /* Build configuration list for PBXNativeTarget "天天天气" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095359F31B6A639D007551E7 /* Debug */,
+				095359F41B6A639D007551E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		095359F51B6A639D007551E7 /* Build configuration list for PBXNativeTarget "天天天气Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095359F61B6A639D007551E7 /* Debug */,
+				095359F71B6A639D007551E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 095359C71B6A639C007551E7 /* Project object */;
+}
